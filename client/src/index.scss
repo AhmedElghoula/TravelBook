@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family:  Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(118, 113, 113);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Navbar-p{
+  color: #606080;
+  font-weight: 500;
+  margin-top: 18px;
+  font-size: 17px;
+}
+
+
+.header-text {
+  color: #606080;
+  font-weight: 500;
+  margin-top: 17px;
+  font-size: 17px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #0095E9;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 2px 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.tags-card {
+  margin: 10px 0 0 20px;
+}
+
+.tag-card{
+  color: #0095E9;
+  border: 1px solid #0095E9;
+  padding:2px 3px ;
+  margin-right: 3px;
+  border-radius: 10px;
+  background-color: #fff;
+ }
+.tourName {
+  color: "#F48FB1";
+  font-size: 18px;
+  margin: 0 0 0 4px;
+  font-weight: 500;
+}
+
+.tagErrMsg {
+  color: #f93154;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 14px;
+}
